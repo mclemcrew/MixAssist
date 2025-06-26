@@ -2,6 +2,9 @@
 
 By: [Michael Clemens](http://mclem.in), [Ana Marasović](https://www.anamarasovic.com)
 
+![A diagram illustrating an interaction between an expert and an amateur while discussing an audio segment. At the center is an audio waveform labeled "Audio segment being discussed." On the left is a person labeled "Expert." An arrow shows they "Listen alongside amateur." The expert says, "I think that tom could be EQ'd a little bit, just a low shelf around 150Hz and bring it down maybe like 6dBs," and "For this style of music, I would typically probably keep it a little bit more tame."
+On the right is a person with headphones labeled "Amateur." An arrow shows they "Play audio relevant to question." The amateur says, "I am just trying to blend in these drums with this a little bit," "Oh! I feel like that's sounding better already," and "This is so fun! I feel like I'm learning so much!"](imgs/dataset-description.png "Dataset Setup")
+
 This repository contains the official evaluation scripts for the paper: **"MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing"**.
 
 We introduce the **MixAssist** dataset, a novel audio-language resource designed to capture the nuanced, multi-turn dialogue between expert and amateur producers during live mixing sessions.
@@ -17,6 +20,8 @@ This repository provides the code to replicate the **"LLM-as-a-Judge"** evaluati
 Our work introduces two new resources to facilitate research in this area:
 
 ### 1. The MixAssist Dataset
+
+![A diagram illustrating a data processing pipeline in five stages, moving from left to right. **Stage 1: Raw Data.** Icons of two-person groups (an amateur and an expert) are shown next to a "REC" symbol, indicating 90-minute recording sessions. **Stage 2: Conversation Transcripts.** An audio waveform is displayed above corresponding transcribed text, such as "And overheads..." and "...It's pop rock.” **Stage 3: Speaker-Split & Audio-Aligned.** The conversation is broken down into turns, with each line of text assigned to a speaker (A for amateur, E for expert) and aligned with its specific audio segment. **Stage 4: Focused Sub-Conversations.** The conversations are grouped into thematically focused sub-conversations, represented by icons like a piano or drums. Each group contains a sequence of speaker-and-audio-aligned turns. **Stage 5: Dataset Instances.** This shows the final structure for a machine learning model. The model input consists of audio and text (including a prior conversation summary and utterances from the amateur and expert). The model output is the subsequent expert utterance.](imgs/data-flow.png "Data Flow")
 
 The primary dataset, MixAssist, captures the conversational "why" behind mixing decisions.
 
