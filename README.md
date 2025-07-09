@@ -1,6 +1,6 @@
 # MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing
 
-By: [Michael Clemens](http://mclem.in), [Ana Marasović](https://www.anamarasovic.com)
+By: [Michael Clemens](https://mclem.in), [Ana Marasović](https://www.anamarasovic.com)
 
 ![A diagram illustrating an interaction between an expert and an amateur while discussing an audio segment. At the center is an audio waveform labeled "Audio segment being discussed." On the left is a person labeled "Expert." An arrow shows they "Listen alongside amateur." The expert says, "I think that tom could be EQ'd a little bit, just a low shelf around 150Hz and bring it down maybe like 6dBs," and "For this style of music, I would typically probably keep it a little bit more tame."
 On the right is a person with headphones labeled "Amateur." An arrow shows they "Play audio relevant to question." The amateur says, "I am just trying to blend in these drums with this a little bit," "Oh! I feel like that's sounding better already," and "This is so fun! I feel like I'm learning so much!"](imgs/dataset-description.png "Dataset Setup")
@@ -29,7 +29,7 @@ The primary dataset, MixAssist, captures the conversational "why" behind mixing 
 - **Structure**: It features natural, instructional dialogue between expert and amateur producers, temporally aligned with the specific audio segments being discussed. The dataset is filtered to focus on pedagogically valuable interactions.
 - **Availability**:
   - The processed conversational dataset is available on [Hugging Face](https://huggingface.co/datasets/mclemcrew/MixAssist).
-  - The raw, unprocessed session recordings (dialogue and DAW playback), aligned music-only audio segments, and transcripts of these sessions are available on [Zenodo]().
+  - The raw, unprocessed session recordings (dialogue and DAW playback), aligned music-only audio segments, and transcripts of these sessions are available on [Zenodo](https://zenodo.org/records/15848443).
 
 ### 2. The MixParams Dataset
 
