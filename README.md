@@ -1,4 +1,4 @@
-# MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing
+ƒ# MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing
 
 By: [Michael Clemens](https://mclem.in), [Ana Marasović](https://www.anamarasovic.com)
 
@@ -64,13 +64,17 @@ python run_judge.py --data "path/to/your/dataset.csv" --samples 5 --model "gpt-4
 
 _(After the initial test run, the script will prompt you to proceed with the full dataset evaluation.)_
 
-<!-- #### How to Cite
+#### How to Cite
 If you use the MixAssist or MixParams dataset, please cite our paper:
 
-@inproceedings{anonymous2025mixassist,
-    title={{MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing}},
-    author={Anonymous},
-    booktitle={Under review as a conference paper at COLM 2025},
-    year={2025},
-    url={https://your_paper_link_here}
-} -->
+```
+@misc{clemens2025mixassistaudiolanguagedatasetcocreative,
+      title={MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing}, 
+      author={Michael Clemens and Ana Marasović},
+      year={2025},
+      eprint={2507.06329},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2507.06329}, 
+}
+```
